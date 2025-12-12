@@ -1,0 +1,453 @@
+2025-12-12T13:46:10.892637 [run_pipeline] Launching: reflex /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12T13:46:11.258103 [run_pipeline] Launching: reflex /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12T13:53:12.356250 [run_pipeline] Launching: /home/michael/install/esoreflex-2.11.5/esoreflex/bin/esoreflex /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+The base dir is /home/michael/install/esoreflex-2.11.5
+Kepler.run going to run.setMain(org.kepler.Kepler)
+JVM Memory: min = 256m,  max = 4096m, stack = 1m
+      [run] log4j.properties found in CLASSPATH: /home/michael/install/esoreflex-2.11.5/kepler/resources/log4j.properties
+      [run] Initializing Configuration Manager.
+      [run] Setting Java Properties.
+      [run] Copying Module Files.
+      [run] Building Kars.
+      [run] Initializing Module: core.
+      [run] Initializing Module: gui.
+      [run] Kepler Initializing...
+      [run] Starting HSQL Server for hsqldb
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:26988/hsqldb;filepath=hsqldb:file:/home/michael/.kepler/cache-2.5/cachedata/hsqldb
+      [run] Building Library.
+      [run] Scanning Local Repositories for KAR files.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:398) The Cache is in sync with KAR files in Local Repositories.
+      [run] WARN  (org.kepler.kar.KARFile:cacheKARContents:572) KAR should be in a Local Repository Folder to be inserted in the cache: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] WARN  (org.ecoinformatics.seek.ecogrid.SearchRegistryAction:queryRegistryRewriteConfig:206) Problem looking up registry entries using endpoint: 
+      [run] https://knb.ecoinformatics.org/registry/services/RegistryService
+      [run] *** Attempting to get ResourceBundle for SVG defaults ***
+      [run] *** svgRenderingMethod = SVG_BATIK_RENDERING ***
+      [run] Initializing Actor Tree.
+      [run] Initializing Library Search.
+      [run] Initializing Ontology Selector.
+      [run] Initializing Library Panel.
+2025-12-12T14:30:10.772294 [run_pipeline] Launching: /home/michael/install/esoreflex-2.11.5/esoreflex/bin/esoreflex --nogui --batch /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+The base dir is /home/michael/install/esoreflex-2.11.5
+Kepler.run going to run.setMain(org.kepler.Kepler)
+JVM Memory: min = 256m,  max = 4096m, stack = 1m
+      [run] log4j.properties found in CLASSPATH: /home/michael/install/esoreflex-2.11.5/kepler/resources/log4j.properties
+      [run] Initializing Configuration Manager.
+      [run] Setting Java Properties.
+      [run] Copying Module Files.
+      [run] Building Kars.
+      [run] Initializing Module: core.
+      [run] Initializing Module: gui.
+      [run] Kepler Initializing...
+      [run] Starting HSQL Server for hsqldb
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:26988/hsqldb;filepath=hsqldb:file:/home/michael/.kepler/cache-2.5/cachedata/hsqldb
+      [run] Building Library.
+      [run] Scanning Local Repositories for KAR files.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:393) The Cache was out of sync with KAR files in Local Repositories.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:395) The Cache has been synchronized with KAR files in Local Repositories.
+      [run] Building Library Index (this can take several minutes).
+      [run] WARN  (org.ecoinformatics.seek.ecogrid.SearchRegistryAction:queryRegistryRewriteConfig:206) Problem looking up registry entries using endpoint: 
+      [run] https://knb.ecoinformatics.org/registry/services/RegistryService
+      [run] WARN  (org.kepler.kar.KARFile:cacheKARContents:572) KAR should be in a Local Repository Folder to be inserted in the cache: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] *** Attempting to get ResourceBundle for SVG defaults ***
+      [run] *** svgRenderingMethod = SVG_BATIK_RENDERING ***
+      [run] Initializing Actor Tree.
+      [run] Initializing Library Search.
+      [run] Initializing Ontology Selector.
+      [run] Initializing Library Panel.
+      [run] java.lang.Exception: Failed to parse "-kepler --nogui --batch /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar"
+      [run] 	at ptolemy.actor.gui.ConfigurationApplication.throwArgsException(ConfigurationApplication.java:975)
+      [run] 	at ptolemy.actor.gui.ConfigurationApplication.<init>(ConfigurationApplication.java:355)
+      [run] 	at ptolemy.actor.gui.MoMLApplication.<init>(MoMLApplication.java:100)
+      [run] 	at ptolemy.vergil.VergilApplication.<init>(VergilApplication.java:128)
+      [run] 	at ptolemy.vergil.VergilApplication.<init>(VergilApplication.java:112)
+      [run] 	at ptolemy.vergil.VergilApplication$1.run(VergilApplication.java:273)
+      [run] 	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+      [run] 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+      [run] 	at java.awt.EventQueue.access$500(EventQueue.java:97)
+      [run] 	at java.awt.EventQueue$3.run(EventQueue.java:709)
+      [run] 	at java.awt.EventQueue$3.run(EventQueue.java:703)
+      [run] 	at java.security.AccessController.doPrivileged(Native Method)
+      [run] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+      [run] 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+      [run] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+      [run] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+      [run] 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+      [run] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+      [run] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+      [run] 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+      [run] Caused by: ptolemy.kernel.util.IllegalActionException: Unrecognized option: No parameter exists with name -nogui
+      [run] 	at ptolemy.actor.gui.ConfigurationApplication._parseArgs(ConfigurationApplication.java:1582)
+      [run] 	at ptolemy.vergil.VergilApplication._parseArgs(VergilApplication.java:536)
+      [run] 	at ptolemy.actor.gui.ConfigurationApplication.<init>(ConfigurationApplication.java:277)
+      [run] 	... 18 more
+      [run] Command failed
+      [run] Arguments: -kepler --nogui --batch /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] 
+2025-12-12T14:30:41.185934 [run_pipeline] Exit code: 0
+2025-12-12T14:30:41.186558 [move_outputs] Moved 0 file(s) for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12T14:30:41.220610 [run_pipeline] Launching: /home/michael/install/esoreflex-2.11.5/esoreflex/bin/esoreflex --nogui --batch /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+The base dir is /home/michael/install/esoreflex-2.11.5
+Kepler.run going to run.setMain(org.kepler.Kepler)
+JVM Memory: min = 256m,  max = 4096m, stack = 1m
+      [run] log4j.properties found in CLASSPATH: /home/michael/install/esoreflex-2.11.5/kepler/resources/log4j.properties
+      [run] Initializing Configuration Manager.
+      [run] Setting Java Properties.
+      [run] Copying Module Files.
+      [run] Building Kars.
+      [run] Initializing Module: core.
+      [run] Initializing Module: gui.
+      [run] Kepler Initializing...
+      [run] Starting HSQL Server for hsqldb
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:26988/hsqldb;filepath=hsqldb:file:/home/michael/.kepler/cache-2.5/cachedata/hsqldb
+      [run] Building Library.
+      [run] Scanning Local Repositories for KAR files.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:393) The Cache was out of sync with KAR files in Local Repositories.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:395) The Cache has been synchronized with KAR files in Local Repositories.
+      [run] Building Library Index (this can take several minutes).
+      [run] WARN  (org.ecoinformatics.seek.ecogrid.SearchRegistryAction:queryRegistryRewriteConfig:206) Problem looking up registry entries using endpoint: 
+      [run] https://knb.ecoinformatics.org/registry/services/RegistryService
+      [run] WARN  (org.kepler.kar.KARFile:cacheKARContents:572) KAR should be in a Local Repository Folder to be inserted in the cache: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] *** Attempting to get ResourceBundle for SVG defaults ***
+      [run] *** svgRenderingMethod = SVG_BATIK_RENDERING ***
+      [run] Initializing Actor Tree.
+      [run] Initializing Library Search.
+      [run] Initializing Ontology Selector.
+      [run] Initializing Library Panel.
+      [run] java.lang.Exception: Failed to parse "-kepler --nogui --batch /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar"
+      [run] 	at ptolemy.actor.gui.ConfigurationApplication.throwArgsException(ConfigurationApplication.java:975)
+      [run] 	at ptolemy.actor.gui.ConfigurationApplication.<init>(ConfigurationApplication.java:355)
+      [run] Command failed	at ptolemy.actor.gui.MoMLApplication.<init>(MoMLApplication.java:100)
+      [run] 
+      [run] 	at ptolemy.vergil.VergilApplication.<init>(VergilApplication.java:128)
+      [run] 	at ptolemy.vergil.VergilApplication.<init>(VergilApplication.java:112)
+      [run] 	at ptolemy.vergil.VergilApplication$1.run(VergilApplication.java:273)
+      [run] 	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+      [run] 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+      [run] 	at java.awt.EventQueue.access$500(EventQueue.java:97)Arguments: -kepler --nogui --batch /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] 
+      [run] 
+      [run] 	at java.awt.EventQueue$3.run(EventQueue.java:709)
+      [run] 	at java.awt.EventQueue$3.run(EventQueue.java:703)
+      [run] 	at java.security.AccessController.doPrivileged(Native Method)
+      [run] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+      [run] 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+      [run] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+      [run] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+      [run] 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+      [run] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+      [run] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+      [run] 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+      [run] Caused by: ptolemy.kernel.util.IllegalActionException: Unrecognized option: No parameter exists with name -nogui
+      [run] 	at ptolemy.actor.gui.ConfigurationApplication._parseArgs(ConfigurationApplication.java:1582)
+      [run] 	at ptolemy.vergil.VergilApplication._parseArgs(VergilApplication.java:536)
+      [run] 	at ptolemy.actor.gui.ConfigurationApplication.<init>(ConfigurationApplication.java:277)
+      [run] 	... 18 more
+2025-12-12T14:31:04.365896 [run_pipeline] Exit code: 0
+2025-12-12T14:31:04.366389 [move_outputs] Moved 0 file(s) for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12T14:33:53.079224 [run_pipeline] Launching: /home/michael/install/esoreflex-2.11.5/esoreflex/bin/esoreflex /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+The base dir is /home/michael/install/esoreflex-2.11.5
+Kepler.run going to run.setMain(org.kepler.Kepler)
+JVM Memory: min = 256m,  max = 4096m, stack = 1m
+      [run] log4j.properties found in CLASSPATH: /home/michael/install/esoreflex-2.11.5/kepler/resources/log4j.properties
+      [run] Initializing Configuration Manager.
+      [run] Setting Java Properties.
+      [run] Copying Module Files.
+      [run] Building Kars.
+      [run] Initializing Module: core.
+      [run] Initializing Module: gui.
+      [run] Kepler Initializing...
+      [run] Starting HSQL Server for hsqldb
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:26988/hsqldb;filepath=hsqldb:file:/home/michael/.kepler/cache-2.5/cachedata/hsqldb
+      [run] Building Library.
+      [run] Scanning Local Repositories for KAR files.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:393) The Cache was out of sync with KAR files in Local Repositories.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:395) The Cache has been synchronized with KAR files in Local Repositories.
+      [run] Building Library Index (this can take several minutes).
+      [run] WARN  (org.ecoinformatics.seek.ecogrid.SearchRegistryAction:queryRegistryRewriteConfig:206) Problem looking up registry entries using endpoint: 
+      [run] https://knb.ecoinformatics.org/registry/services/RegistryService
+      [run] WARN  (org.kepler.kar.KARFile:cacheKARContents:572) KAR should be in a Local Repository Folder to be inserted in the cache: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] *** Attempting to get ResourceBundle for SVG defaults ***
+      [run] *** svgRenderingMethod = SVG_BATIK_RENDERING ***
+      [run] Initializing Actor Tree.
+      [run] Initializing Library Search.
+      [run] Initializing Ontology Selector.
+      [run] Initializing Library Panel.
+      [run] SLF4J: Class path contains multiple SLF4J bindings.
+      [run] SLF4J: Found binding in [jar:file:/home/michael/install/esoreflex-2.11.5/common/lib/jar/slf4j-log4j12-1.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+      [run] SLF4J: Found binding in [jar:file:/home/michael/install/esoreflex-2.11.5/ptolemy/src/lib/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+      [run] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+      [run] SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_pol_correct_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_pol_correct_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_pol_correct_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_pol_correct_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_phot_star_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_phot_star_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_phot_star_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_phot_star_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_polhigh_star_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_polhigh_star_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_polhigh_star_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_polhigh_star_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/ifs_distortion_points.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/ifs_distortion_points.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/ifs_distortion_points.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/ifs_distortion_points.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/irdis_distortion_points.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/irdis_distortion_points.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/irdis_distortion_points.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/irdis_distortion_points.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_zpl_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_phot_star_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_phot_star_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_phot_star_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_phot_star_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:485) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits doesn't contain the CHECKSUM keyword
+      [run] WARN  (org.eso.util.Util:calculateChecksum:493) /home/michael/install/share/esopipes/datastatic/spher-0.58.1/sph_ird_filt_table.fits contains neither DATASUM nor DATAMD5 keyword
+      [run] SPHER.2015-04-23T07-29-47.926_tpl Dataset has been reduced and saved in /home/michael/reflex_data//reflex_end_products/2025-12-12T14:34:20/SPHER.2015-04-23T07-29-47.926_tpl
+      [run] 65632 ms. Memory: 1883136K Free: 690665K (37%)
+2025-12-12T14:38:56.724758 [run_pipeline] Launching: /home/michael/install/esoreflex-2.11.5/esoreflex/bin/esoreflex /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+The base dir is /home/michael/install/esoreflex-2.11.5
+Kepler.run going to run.setMain(org.kepler.Kepler)
+JVM Memory: min = 256m,  max = 4096m, stack = 1m
+      [run] log4j.properties found in CLASSPATH: /home/michael/install/esoreflex-2.11.5/kepler/resources/log4j.properties
+      [run] Initializing Configuration Manager.
+      [run] Setting Java Properties.
+      [run] Copying Module Files.
+      [run] Building Kars.
+      [run] Initializing Module: core.
+      [run] Initializing Module: gui.
+      [run] Kepler Initializing...
+      [run] Starting HSQL Server for hsqldb
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:26988/hsqldb;filepath=hsqldb:file:/home/michael/.kepler/cache-2.5/cachedata/hsqldb
+      [run] Building Library.
+      [run] Scanning Local Repositories for KAR files.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:393) The Cache was out of sync with KAR files in Local Repositories.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:395) The Cache has been synchronized with KAR files in Local Repositories.
+      [run] Building Library Index (this can take several minutes).
+      [run] WARN  (org.ecoinformatics.seek.ecogrid.SearchRegistryAction:queryRegistryRewriteConfig:206) Problem looking up registry entries using endpoint: 
+      [run] https://knb.ecoinformatics.org/registry/services/RegistryService
+      [run] WARN  (org.kepler.kar.KARFile:cacheKARContents:572) KAR should be in a Local Repository Folder to be inserted in the cache: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] *** Attempting to get ResourceBundle for SVG defaults ***
+      [run] *** svgRenderingMethod = SVG_BATIK_RENDERING ***
+      [run] Initializing Actor Tree.
+      [run] Initializing Library Search.
+      [run] Initializing Ontology Selector.
+      [run] Initializing Library Panel.
+      [run] INFO  (org.kepler.objectmanager.repository.RepositoryManager:<init>:118) adding repository localRepository
+      [run] INFO  (org.kepler.objectmanager.repository.RepositoryManager:<init>:118) adding repository keplerRepository
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:49228/coreDB;filepath=hsqldb:file:/home/michael/KeplerData/modules/core/coreDB
+      [run] SLF4J: Class path contains multiple SLF4J bindings.
+      [run] SLF4J: Found binding in [jar:file:/home/michael/install/esoreflex-2.11.5/common/lib/jar/slf4j-log4j12-1.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+      [run] SLF4J: Found binding in [jar:file:/home/michael/install/esoreflex-2.11.5/ptolemy/src/lib/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+      [run] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+      [run] SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type BACKGROUND for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_WAVECALIB for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_MASTER_DFF_LONG1 for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_MASTER_DFF_LONG2 for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_MASTER_DFF_LONG3 for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_MASTER_DFF_LONGBB for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_IFU_FLAT_FIELD for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] ERROR (org.eso.util.FileSystemDatasetCreator:extractDatasets:453) Association SPHER.2015-04-23T07-29-47.926_tpl is incomplete, look at the OCA output on the console for more information
+      [run] ERROR (org.eso.oca.fits.FITSHandler:getFITSCardsMap:200) Could not retrieve HDU 0 from FITS file '/home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits:Zone.Identifier'.
+      [run] WARN  (org.eso.util.FileSystemDatasetCreator:saveCurrentExecution:245) Error saving current execution, lazy mode will not work: Could not retrieve HDU 0 from FITS file '/home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits:Zone.Identifier'.
+      [run] ERROR (org.eso.RecipeExecuter:fire:656) sph_ifs_spectra_positions_1: sof empty after filtering, please check the input filter tags and the upstream actors
+      [run] ERROR (org.eso.RecipeExecuter:fire:680) Command [esorex --suppress-prefix=TRUE  --output-dir=/home/michael/reflex_data//reflex_tmp_products/spher/sph_ifs_spectra_positions_1/2025-12-12T14:45:18.556 --log-dir=/home/michael/automation/logs/sph_ifs_spectra_positions_1/2025-12-12T14:45:18.556 --recipe-config=/home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_spectra_positions_1/2025-12-12T14:45:18.556/sph_ifs_spectra_positions.rc --products-sof=products_sof.json sph_ifs_spectra_positions /home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_spectra_positions_1/2025-12-12T14:45:18.556/data.sof] returned exit code 23
+      [run] Standard error:
+      [run] [ ERROR ] sph_ifs_spectra_positions: Dumping all 3 error(s):
+      [run] [ ERROR ] sph_ifs_spectra_positions:   [1/3] 'Data not found: Frameset of 0 frame(s) has no frame with tag: IFS_SPECPOS_RAW' (10) at sph_utils_extract_frames:sph_utils.c:521
+      [run] [ ERROR ] sph_ifs_spectra_positions:   [2/3] 'A user-defined error: Could not extract rawframes frames.to use them check that they have the IFS_SPECPOS_RAW tag.' (1627) at sph_ifs_spectra_positions_check_frames:sph_ifs_spectra_positions.c:593
+      [run] [ ERROR ] sph_ifs_spectra_positions:   [3/3] 'A user-defined error' (1627) at sph_ifs_spectra_positions_exec_plugin:sph_ifs_spectra_positions.c:367
+      [run] [ ERROR ] esorex: Execution of recipe 'sph_ifs_spectra_positions' failed, status = 23
+      [run] 
+      [run] ERROR (org.eso.RecipeExecuter:fire:656) sph_ifs_master_detector_flat_1: sof empty after filtering, please check the input filter tags and the upstream actors
+      [run] ERROR (org.eso.RecipeExecuter:fire:680) Command [esorex --suppress-prefix=TRUE  --output-dir=/home/michael/reflex_data//reflex_tmp_products/spher/sph_ifs_master_detector_flat_1/2025-12-12T14:45:25.312 --log-dir=/home/michael/automation/logs/sph_ifs_master_detector_flat_1/2025-12-12T14:45:25.312 --recipe-config=/home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_master_detector_flat_1/2025-12-12T14:45:25.312/sph_ifs_master_detector_flat.rc --products-sof=products_sof.json sph_ifs_master_detector_flat /home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_master_detector_flat_1/2025-12-12T14:45:25.312/data.sof] returned exit code 23
+      [run] Standard error:
+      [run] [ ERROR ] sph_ifs_master_detector_flat: Dumping all 3 error(s):
+      [run] [ ERROR ] sph_ifs_master_detector_flat:   [1/3] 'Data not found: Frameset of 0 frame(s) has no frame with tag: IFS_DETECTOR_FLAT_FIELD_RAW' (10) at sph_utils_extract_frames:sph_utils.c:521
+      [run] [ ERROR ] sph_ifs_master_detector_flat:   [2/3] 'A user-defined error: Could not extract rawframes frames.to use them check that they have the IFS_DETECTOR_FLAT_FIELD_RAW tag.' (1227) at sph_ifs_master_detector_flat_check_frames:sph_ifs_master_detector_flat.c:664
+      [run] [ ERROR ] sph_ifs_master_detector_flat:   [3/3] 'A user-defined error' (1227) at sph_ifs_master_detector_flat_exec_plugin:sph_ifs_master_detector_flat.c:397
+      [run] [ ERROR ] esorex: Execution of recipe 'sph_ifs_master_detector_flat' failed, status = 23
+      [run] 
+      [run] ERROR (org.eso.RecipeExecuter:fire:656) sph_ifs_wave_calib_1: sof empty after filtering, please check the input filter tags and the upstream actors
+      [run] ERROR (org.eso.RecipeExecuter:fire:680) Command [esorex --suppress-prefix=TRUE  --output-dir=/home/michael/reflex_data//reflex_tmp_products/spher/sph_ifs_wave_calib_1/2025-12-12T14:45:28.797 --log-dir=/home/michael/automation/logs/sph_ifs_wave_calib_1/2025-12-12T14:45:28.797 --recipe-config=/home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_wave_calib_1/2025-12-12T14:45:28.797/sph_ifs_wave_calib.rc --products-sof=products_sof.json sph_ifs_wave_calib /home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_wave_calib_1/2025-12-12T14:45:28.797/data.sof] returned exit code 23
+      [run] Standard error:
+      [run] [ ERROR ] sph_ifs_wave_calib: Dumping all 3 error(s):
+      [run] [ ERROR ] sph_ifs_wave_calib:   [1/3] 'Data not found: Frameset of 0 frame(s) has no frame with tag: IFS_WAVECALIB_RAW' (10) at sph_utils_extract_frames:sph_utils.c:521
+      [run] [ ERROR ] sph_ifs_wave_calib:   [2/3] 'A user-defined error: Could not extract rawframes frames.to use them check that they have the IFS_WAVECALIB_RAW tag.' (2227) at sph_ifs_wave_calib_check_frames:sph_ifs_wave_calib.c:547
+      [run] [ ERROR ] sph_ifs_wave_calib:   [3/3] 'A user-defined error' (2227) at sph_ifs_wave_calib_exec_plugin:sph_ifs_wave_calib.c:285
+      [run] [ ERROR ] esorex: Execution of recipe 'sph_ifs_wave_calib' failed, status = 23
+      [run] 
+      [run] 27789 ms. Memory: 1670144K Free: 1393623K (83%)
+      [run] INFO  (org.kepler.objectmanager.library.LibraryManager:deleteKAR:642) /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar was deleted.
+      [run] INFO  (org.kepler.kar.KARBuilder:writeKARFile:487) done writing KAR file to /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] INFO  (org.kepler.kar.KARBuilder:writeKARFile:487) done writing KAR file to /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] Dec 12, 2025 2:47:10 PM sun.awt.X11.XToolkit processException
+      [run] WARNING: Exception on Toolkit thread
+      [run] java.lang.NullPointerException
+      [run] 	at java.awt.Component$BltBufferStrategy.contentsLost(Component.java:4479)
+      [run] 	at java.awt.Component$BltSubRegionBufferStrategy.showIfNotLost(Component.java:4542)
+      [run] 	at javax.swing.BufferStrategyPaintManager.show(BufferStrategyPaintManager.java:252)
+      [run] 	at javax.swing.RepaintManager.show(RepaintManager.java:1379)
+      [run] 	at javax.swing.SwingPaintEventDispatcher.createPaintEvent(SwingPaintEventDispatcher.java:61)
+      [run] 	at sun.awt.X11.XWindow.postPaintEvent(XWindow.java:557)
+      [run] 	at sun.awt.X11.XComponentPeer.postPaintEvent(XComponentPeer.java:75)
+      [run] 	at sun.awt.X11.XWindow.handleExposeEvent(XWindow.java:551)
+      [run] 	at sun.awt.X11.XComponentPeer.handleExposeEvent(XComponentPeer.java:75)
+      [run] 	at sun.awt.X11.XBaseWindow.dispatchEvent(XBaseWindow.java:1118)
+      [run] 	at sun.awt.X11.XBaseWindow.dispatchToWindow(XBaseWindow.java:1094)
+      [run] 	at sun.awt.X11.XToolkit.dispatchEvent(XToolkit.java:504)
+      [run] 	at sun.awt.X11.XToolkit.run(XToolkit.java:618)
+      [run] 	at sun.awt.X11.XToolkit.run(XToolkit.java:534)
+      [run] 	at java.lang.Thread.run(Thread.java:750)
+      [run] 
+      [run] Dec 12, 2025 2:47:10 PM sun.awt.X11.XToolkit processException
+      [run] WARNING: Exception on Toolkit thread
+      [run] java.lang.NullPointerException
+      [run] 	at java.awt.Component$BltBufferStrategy.contentsLost(Component.java:4479)
+      [run] 	at java.awt.Component$BltSubRegionBufferStrategy.showIfNotLost(Component.java:4542)
+      [run] 	at javax.swing.BufferStrategyPaintManager.show(BufferStrategyPaintManager.java:252)
+      [run] 	at javax.swing.RepaintManager.show(RepaintManager.java:1379)
+      [run] 	at javax.swing.SwingPaintEventDispatcher.createPaintEvent(SwingPaintEventDispatcher.java:61)
+      [run] 	at sun.awt.X11.XWindow.postPaintEvent(XWindow.java:557)
+      [run] 	at sun.awt.X11.XComponentPeer.postPaintEvent(XComponentPeer.java:75)
+      [run] 	at sun.awt.X11.XWindow.handleExposeEvent(XWindow.java:551)
+      [run] 	at sun.awt.X11.XComponentPeer.handleExposeEvent(XComponentPeer.java:75)
+      [run] 	at sun.awt.X11.XBaseWindow.dispatchEvent(XBaseWindow.java:1118)
+      [run] 	at sun.awt.X11.XBaseWindow.dispatchToWindow(XBaseWindow.java:1094)
+      [run] 	at sun.awt.X11.XToolkit.dispatchEvent(XToolkit.java:504)
+      [run] 	at sun.awt.X11.XToolkit.run(XToolkit.java:618)
+      [run] 	at sun.awt.X11.XToolkit.run(XToolkit.java:534)
+      [run] 	at java.lang.Thread.run(Thread.java:750)
+      [run] 
+      [run] Dec 12, 2025 2:47:10 PM sun.awt.X11.XToolkit processException
+      [run] WARNING: Exception on Toolkit thread
+      [run] java.lang.NullPointerException
+      [run] 	at java.awt.Component$BltBufferStrategy.contentsLost(Component.java:4479)
+      [run] 	at java.awt.Component$BltSubRegionBufferStrategy.showIfNotLost(Component.java:4542)
+      [run] 	at javax.swing.BufferStrategyPaintManager.show(BufferStrategyPaintManager.java:252)
+      [run] 	at javax.swing.RepaintManager.show(RepaintManager.java:1379)
+      [run] 	at javax.swing.SwingPaintEventDispatcher.createPaintEvent(SwingPaintEventDispatcher.java:61)
+      [run] 	at sun.awt.X11.XWindow.postPaintEvent(XWindow.java:557)
+      [run] 	at sun.awt.X11.XContentWindow.postPaintEvent(XContentWindow.java:163)
+      [run] 	at sun.awt.X11.XWindow.handleExposeEvent(XWindow.java:551)
+      [run] 	at sun.awt.X11.XContentWindow.handleExposeEvent(XContentWindow.java:45)
+      [run] 	at sun.awt.X11.XBaseWindow.dispatchEvent(XBaseWindow.java:1118)
+      [run] 	at sun.awt.X11.XBaseWindow.dispatchToWindow(XBaseWindow.java:1094)
+      [run] 	at sun.awt.X11.XToolkit.dispatchEvent(XToolkit.java:504)
+      [run] 	at sun.awt.X11.XToolkit.run(XToolkit.java:618)
+      [run] 	at sun.awt.X11.XToolkit.run(XToolkit.java:534)
+      [run] 	at java.lang.Thread.run(Thread.java:750)
+      [run] 
+      [run] Dec 12, 2025 2:47:10 PM sun.awt.X11.XToolkit processException
+      [run] WARNING: Exception on Toolkit thread
+      [run] java.lang.NullPointerException
+      [run] 	at java.awt.Component$BltBufferStrategy.contentsLost(Component.java:4479)
+      [run] 	at java.awt.Component$BltSubRegionBufferStrategy.showIfNotLost(Component.java:4542)
+      [run] 	at javax.swing.BufferStrategyPaintManager.show(BufferStrategyPaintManager.java:252)
+      [run] 	at javax.swing.RepaintManager.show(RepaintManager.java:1379)
+      [run] 	at javax.swing.SwingPaintEventDispatcher.createPaintEvent(SwingPaintEventDispatcher.java:61)
+      [run] 	at sun.awt.X11.XWindow.postPaintEvent(XWindow.java:557)
+      [run] 	at sun.awt.X11.XContentWindow.postPaintEvent(XContentWindow.java:163)
+      [run] 	at sun.awt.X11.XWindow.handleExposeEvent(XWindow.java:551)
+      [run] 	at sun.awt.X11.XContentWindow.handleExposeEvent(XContentWindow.java:45)
+      [run] 	at sun.awt.X11.XBaseWindow.dispatchEvent(XBaseWindow.java:1118)
+      [run] 	at sun.awt.X11.XBaseWindow.dispatchToWindow(XBaseWindow.java:1094)
+      [run] 	at sun.awt.X11.XToolkit.dispatchEvent(XToolkit.java:504)
+      [run] 	at sun.awt.X11.XToolkit.run(XToolkit.java:618)
+      [run] 	at sun.awt.X11.XToolkit.run(XToolkit.java:534)
+      [run] 	at java.lang.Thread.run(Thread.java:750)
+      [run] 
+2025-12-12T14:47:11.163247 [run_pipeline] Exit code: 0
+2025-12-12T14:47:11.164416 [move_outputs] Moved 0 file(s) for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12T14:47:11.199087 [run_pipeline] Launching: /home/michael/install/esoreflex-2.11.5/esoreflex/bin/esoreflex /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+The base dir is /home/michael/install/esoreflex-2.11.5
+Kepler.run going to run.setMain(org.kepler.Kepler)
+JVM Memory: min = 256m,  max = 4096m, stack = 1m
+      [run] log4j.properties found in CLASSPATH: /home/michael/install/esoreflex-2.11.5/kepler/resources/log4j.properties
+      [run] Initializing Configuration Manager.
+      [run] Setting Java Properties.
+      [run] Copying Module Files.
+      [run] Building Kars.
+      [run] Initializing Module: core.
+      [run] Initializing Module: gui.
+      [run] Kepler Initializing...
+      [run] Starting HSQL Server for hsqldb
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:11084/hsqldb;filepath=hsqldb:file:/home/michael/.kepler/cache-2.5/cachedata/hsqldb
+      [run] Building Library.
+      [run] Scanning Local Repositories for KAR files.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:398) The Cache is in sync with KAR files in Local Repositories.
+      [run] WARN  (org.ecoinformatics.seek.ecogrid.SearchRegistryAction:queryRegistryRewriteConfig:206) Problem looking up registry entries using endpoint: 
+      [run] https://knb.ecoinformatics.org/registry/services/RegistryService
+      [run] WARN  (org.kepler.kar.KARFile:cacheKARContents:572) KAR should be in a Local Repository Folder to be inserted in the cache: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+      [run] *** Attempting to get ResourceBundle for SVG defaults ***
+      [run] *** svgRenderingMethod = SVG_BATIK_RENDERING ***
+      [run] Initializing Actor Tree.
+      [run] Initializing Library Search.
+      [run] Initializing Ontology Selector.
+      [run] Initializing Library Panel.
+      [run] SLF4J: Class path contains multiple SLF4J bindings.
+      [run] SLF4J: Found binding in [jar:file:/home/michael/install/esoreflex-2.11.5/common/lib/jar/slf4j-log4j12-1.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+      [run] SLF4J: Found binding in [jar:file:/home/michael/install/esoreflex-2.11.5/ptolemy/src/lib/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+      [run] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+      [run] SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type BACKGROUND for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_WAVECALIB for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_MASTER_DFF_LONG1 for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_MASTER_DFF_LONG2 for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_MASTER_DFF_LONG3 for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_MASTER_DFF_LONGBB for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] WARN  (org.eso.oca.parser.ASTSelectAssociateStatement:interpret:142) Could not find enough products of type IFS_IFU_FLAT_FIELD for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits. Requested 1. Found 0.
+      [run] ERROR (org.eso.util.FileSystemDatasetCreator:extractDatasets:453) Association SPHER.2015-04-23T07-29-47.926_tpl is incomplete, look at the OCA output on the console for more information
+      [run] ERROR (org.eso.oca.fits.FITSHandler:getFITSCardsMap:200) Could not retrieve HDU 0 from FITS file '/home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits:Zone.Identifier'.
+      [run] WARN  (org.eso.util.FileSystemDatasetCreator:saveCurrentExecution:245) Error saving current execution, lazy mode will not work: Could not retrieve HDU 0 from FITS file '/home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits:Zone.Identifier'.
+      [run] ERROR (org.eso.RecipeExecuter:fire:656) sph_ifs_spectra_positions_1: sof empty after filtering, please check the input filter tags and the upstream actors
+      [run] ERROR (org.eso.RecipeExecuter:fire:680) Command [esorex --suppress-prefix=TRUE  --output-dir=/home/michael/reflex_data//reflex_tmp_products/spher/sph_ifs_spectra_positions_1/2025-12-12T14:47:44.116 --log-dir=/home/michael/automation/logs/sph_ifs_spectra_positions_1/2025-12-12T14:47:44.116 --recipe-config=/home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_spectra_positions_1/2025-12-12T14:47:44.116/sph_ifs_spectra_positions.rc --products-sof=products_sof.json sph_ifs_spectra_positions /home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_spectra_positions_1/2025-12-12T14:47:44.116/data.sof] returned exit code 23
+      [run] Standard error:
+      [run] [ ERROR ] sph_ifs_spectra_positions: Dumping all 3 error(s):
+      [run] [ ERROR ] sph_ifs_spectra_positions:   [1/3] 'Data not found: Frameset of 0 frame(s) has no frame with tag: IFS_SPECPOS_RAW' (10) at sph_utils_extract_frames:sph_utils.c:521
+      [run] [ ERROR ] sph_ifs_spectra_positions:   [2/3] 'A user-defined error: Could not extract rawframes frames.to use them check that they have the IFS_SPECPOS_RAW tag.' (1627) at sph_ifs_spectra_positions_check_frames:sph_ifs_spectra_positions.c:593
+      [run] [ ERROR ] sph_ifs_spectra_positions:   [3/3] 'A user-defined error' (1627) at sph_ifs_spectra_positions_exec_plugin:sph_ifs_spectra_positions.c:367
+      [run] [ ERROR ] esorex: Execution of recipe 'sph_ifs_spectra_positions' failed, status = 23
+      [run] 
+      [run] 10675 ms. Memory: 1558016K Free: 1264396K (81%)
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:35542/coreDB;filepath=hsqldb:file:/home/michael/KeplerData/modules/core/coreDB
+2025-12-12T14:48:03.746976 [run_pipeline] Exit code: 0
+2025-12-12T14:48:03.747482 [move_outputs] Moved 0 file(s) for /home/michael/automation/raw_data/SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12T14:48:03.775226 [run_pipeline] Launching: /home/michael/install/esoreflex-2.11.5/esoreflex/bin/esoreflex /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+The base dir is /home/michael/install/esoreflex-2.11.5
+Kepler.run going to run.setMain(org.kepler.Kepler)
+JVM Memory: min = 256m,  max = 4096m, stack = 1m
+      [run] log4j.properties found in CLASSPATH: /home/michael/install/esoreflex-2.11.5/kepler/resources/log4j.properties
+      [run] Initializing Configuration Manager.
+      [run] Setting Java Properties.
+      [run] Copying Module Files.
+      [run] Building Kars.
+      [run] Initializing Module: core.
+      [run] Initializing Module: gui.
+      [run] Kepler Initializing...
+      [run] Starting HSQL Server for hsqldb
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:18517/hsqldb;filepath=hsqldb:file:/home/michael/.kepler/cache-2.5/cachedata/hsqldb
+      [run] Building Library.
+      [run] Scanning Local Repositories for KAR files.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:393) The Cache was out of sync with KAR files in Local Repositories.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:395) The Cache has been synchronized with KAR files in Local Repositories.
+      [run] Building Library Index (this can take several minutes).
+      [run] WARN  (org.ecoinformatics.seek.ecogrid.SearchRegistryAction:queryRegistryRewriteConfig:206) Problem looking up registry entries using endpoint: 
+      [run] https://knb.ecoinformatics.org/registry/services/RegistryService

@@ -1,0 +1,14 @@
+
+Start time     : 2025-12-12T14:47:44
+Program name   : esorex
+Severity level : [ INFO  ] 
+
+14:47:44 [ INFO  ] : [tid=000] This is EsoRex, version 3.13.10
+14:47:44 [ INFO  ] : [tid=000] using the libraries: CPL = 7.3.2, CFITSIO = 4.6.2, WCSLIB = 8.2.2, FFTW (normal precision) = 3.3.10-sse2, FFTW (single precision) = 3.3.10-sse2, OPENMP = 201511
+14:47:44 [ INFO  ] : [tid=000] Invocation command line was: esorex --suppress-prefix=TRUE --output-dir=/home/michael/reflex_data//reflex_tmp_products/spher/sph_ifs_spectra_positions_1/2025-12-12T14:47:44.116 --log-dir=/home/michael/automation/logs/sph_ifs_spectra_positions_1/2025-12-12T14:47:44.116 --recipe-config=/home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_spectra_positions_1/2025-12-12T14:47:44.116/sph_ifs_spectra_positions.rc --products-sof=products_sof.json sph_ifs_spectra_positions /home/michael/reflex_data//reflex_book_keeping/spher/sph_ifs_spectra_positions_1/2025-12-12T14:47:44.116/data.sof
+14:47:44 [ ERROR ] cpl_errorstate_dump_one_level: [tid=000] Dumping all 3 error(s):
+14:47:44 [ ERROR ] cpl_errorstate_dump_one_level: [tid=000]   [1/3] 'Data not found: Frameset of 0 frame(s) has no frame with tag: IFS_SPECPOS_RAW' (10) at sph_utils_extract_frames:sph_utils.c:521
+14:47:44 [ ERROR ] cpl_errorstate_dump_one_level: [tid=000]   [2/3] 'A user-defined error: Could not extract rawframes frames.to use them check that they have the IFS_SPECPOS_RAW tag.' (1627) at sph_ifs_spectra_positions_check_frames:sph_ifs_spectra_positions.c:593
+14:47:44 [ ERROR ] cpl_errorstate_dump_one_level: [tid=000]   [3/3] 'A user-defined error' (1627) at sph_ifs_spectra_positions_exec_plugin:sph_ifs_spectra_positions.c:367
+14:47:44 [ ERROR ] : [tid=000] Execution of recipe 'sph_ifs_spectra_positions' failed, status = 23
+14:47:44 [WARNING] : [tid=000] Writing of output sof omitted due to previous errors
