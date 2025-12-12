@@ -6,9 +6,9 @@ import shutil
 import datetime
 
 REFLEX_WORKFLOW = "/home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar"
-PIPELINE_OUTPUT_DIR = Path("/home/michael/automation/pipeline_products")
-FINAL_REDUCED_DIR = Path("/home/michael/automation/reduced_data")
-LOG_DIR = Path("/home/michael/automation/logs")
+PIPELINE_OUTPUT_DIR = Path("/home/michael/repo/automation/pipeline_products")
+FINAL_REDUCED_DIR = Path("/home/michael/repo/automation/reduced_data")
+LOG_DIR = Path("/home/michael/repo/automation/logs")
 
 def append_log(message: str):
     msg = f"{datetime.datetime.now().isoformat()} {message}"

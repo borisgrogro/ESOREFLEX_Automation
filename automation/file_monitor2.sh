@@ -1,6 +1,6 @@
 #!/bin/bash
-MONITORED_DIR="/home/michael/automation/raw_data"
-PYTHON_SCRIPT="/home/michael/automation/automate.py"
+MONITORED_DIR="/home/michael/repo/automation/raw_data"
+PYTHON_SCRIPT="/home/michael/repo/automation/automate.py"
 
 inotifywait -m -e close_write "$MONITORED_DIR" | while read DIR EVENT FILE
 do
