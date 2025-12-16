@@ -1,0 +1,97 @@
+2025-12-12 17:45:02,680 [INFO] ======================================================================
+2025-12-12 17:45:02,680 [INFO] SPHERE IFS Batch Processing Pipeline
+2025-12-12 17:45:02,680 [INFO] ======================================================================
+2025-12-12 17:45:02,680 [INFO] Raw data directory: /home/michael/repo/automation/raw_data
+2025-12-12 17:45:02,680 [INFO] Reduced data directory: /home/michael/repo/automation/reduced_data
+2025-12-12 17:45:02,680 [INFO] Reflex workflow: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+2025-12-12 17:45:02,681 [INFO] Found 36 FITS file(s) to process
+2025-12-12 17:45:02,681 [INFO] ============================================================
+2025-12-12 17:45:02,681 [INFO] Processing: SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 17:45:02,681 [INFO] ============================================================
+2025-12-12 17:45:02,801 [INFO] Copied SPHER.2015-04-23T07-29-47.926.fits to Reflex data tree
+2025-12-12 17:45:02,801 [WARNING] ============================================================
+2025-12-12 17:45:02,801 [WARNING] MANUAL INTERACTION REQUIRED:
+2025-12-12 17:45:02,801 [WARNING] 1. Reflex GUI should open in 3 seconds...
+2025-12-12 17:45:02,801 [WARNING] 2. SELECT the dataset row for this FITS file
+2025-12-12 17:45:02,801 [WARNING] 3. CLICK the 'Start' button
+2025-12-12 17:45:02,801 [WARNING] 4. WAIT for the pipeline to complete
+2025-12-12 17:45:02,801 [WARNING] 5. You will see 'reduced and saved' in the console
+2025-12-12 17:45:02,801 [WARNING] ============================================================
+2025-12-12 17:45:05,801 [INFO] Launching Reflex for SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 17:51:52,134 [INFO] Reflex finished successfully for SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 17:51:57,007 [INFO] ======================================================================
+2025-12-12 17:51:57,007 [INFO] SPHERE IFS Batch Processing Pipeline
+2025-12-12 17:51:57,007 [INFO] ======================================================================
+2025-12-12 17:51:57,007 [INFO] Raw data directory: /home/michael/repo/automation/raw_data
+2025-12-12 17:51:57,007 [INFO] Reduced data directory: /home/michael/repo/automation/reduced_data
+2025-12-12 17:51:57,007 [INFO] Reflex workflow: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+2025-12-12 17:51:57,008 [INFO] Found 36 FITS file(s) to process
+2025-12-12 17:51:57,009 [INFO] ============================================================
+2025-12-12 17:51:57,009 [INFO] Processing: SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 17:51:57,009 [INFO] ============================================================
+2025-12-12 17:51:57,009 [INFO] Using FITS file from raw_data: SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 17:51:57,009 [WARNING] ============================================================
+2025-12-12 17:51:57,009 [WARNING] MANUAL INTERACTION REQUIRED:
+2025-12-12 17:51:57,009 [WARNING] 1. Reflex GUI should open in 3 seconds...
+2025-12-12 17:51:57,009 [WARNING] 2. SELECT the dataset row for this FITS file
+2025-12-12 17:51:57,009 [WARNING] 3. CLICK the 'Start' button
+2025-12-12 17:51:57,009 [WARNING] 4. WAIT for the pipeline to complete
+2025-12-12 17:51:57,009 [WARNING] 5. You will see 'reduced and saved' in the console
+2025-12-12 17:51:57,009 [WARNING] ============================================================
+2025-12-12 17:52:00,009 [INFO] Launching Reflex for SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 17:59:51,478 [INFO] ======================================================================
+2025-12-12 17:59:51,479 [INFO] SPHERE IFS Batch Processing Pipeline
+2025-12-12 17:59:51,479 [INFO] ======================================================================
+2025-12-12 17:59:51,479 [INFO] Raw data directory: /home/michael/repo/automation/raw_data
+2025-12-12 17:59:51,479 [INFO] Reduced data directory: /home/michael/repo/automation/reduced_data
+2025-12-12 17:59:51,479 [INFO] Reflex workflow: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
+2025-12-12 17:59:51,480 [INFO] Found 36 FITS file(s) to process
+2025-12-12 17:59:51,480 [INFO] ============================================================
+2025-12-12 17:59:51,480 [INFO] Processing: SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 17:59:51,480 [INFO] ============================================================
+2025-12-12 17:59:51,480 [INFO] Using FITS file from raw_data: SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 17:59:51,480 [WARNING] ============================================================
+2025-12-12 17:59:51,480 [WARNING] MANUAL INTERACTION REQUIRED:
+2025-12-12 17:59:51,480 [WARNING] 1. Reflex GUI should open in 3 seconds...
+2025-12-12 17:59:51,480 [WARNING] 2. SELECT the dataset row for this FITS file
+2025-12-12 17:59:51,480 [WARNING] 3. CLICK the 'Start' button
+2025-12-12 17:59:51,480 [WARNING] 4. WAIT for the pipeline to complete
+2025-12-12 17:59:51,480 [WARNING] 5. You will see 'reduced and saved' in the console
+2025-12-12 17:59:51,480 [WARNING] ============================================================
+2025-12-12 17:59:54,480 [INFO] Launching Reflex for SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 18:10:16,724 [INFO] Reflex finished successfully for SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 18:10:21,731 [INFO] Found 20 output product(s) for SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 18:10:21,951 [INFO] Moved HIP83693_IFS_SCIENCE_DR_2.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:22,181 [INFO] Moved HIP83693_IFS_SCIENCE_DR_4.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:22,401 [INFO] Moved HIP83693_IFS_SCIENCE_DR_8.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:22,625 [INFO] Moved HIP83693_IFS_SCIENCE_DR.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:22,846 [INFO] Moved HIP83693_IFS_SCIENCE_DR_5.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:23,078 [INFO] Moved HIP83693_IFS_SCIENCE_DR_3.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:23,373 [INFO] Moved HIP83693_IFS_SCIENCE_DR_9.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:23,758 [INFO] Moved HIP83693_IFS_SCIENCE_DR_1.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:24,015 [INFO] Moved HIP83693_IFS_SCIENCE_DR_6.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:24,238 [INFO] Moved HIP83693_IFS_SCIENCE_DR_7.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:24,508 [INFO] Moved HIP83693_IFS_SCIENCE_DR_2.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:24,768 [INFO] Moved HIP83693_IFS_SCIENCE_DR_4.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:25,008 [INFO] Moved HIP83693_IFS_SCIENCE_DR_8.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:25,265 [INFO] Moved HIP83693_IFS_SCIENCE_DR.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:25,506 [INFO] Moved HIP83693_IFS_SCIENCE_DR_5.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:25,758 [INFO] Moved HIP83693_IFS_SCIENCE_DR_3.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:25,997 [INFO] Moved HIP83693_IFS_SCIENCE_DR_9.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:26,248 [INFO] Moved HIP83693_IFS_SCIENCE_DR_1.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:26,484 [INFO] Moved HIP83693_IFS_SCIENCE_DR_6.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:26,751 [INFO] Moved HIP83693_IFS_SCIENCE_DR_7.fits to /home/michael/repo/automation/reduced_data
+2025-12-12 18:10:26,752 [INFO] Successfully processed SPHER.2015-04-23T07-29-47.926.fits
+2025-12-12 18:10:28,752 [INFO] ============================================================
+2025-12-12 18:10:28,752 [INFO] Processing: SPHER.2015-04-23T11-36-38.665.fits
+2025-12-12 18:10:28,752 [INFO] ============================================================
+2025-12-12 18:10:28,752 [INFO] Using FITS file from raw_data: SPHER.2015-04-23T11-36-38.665.fits
+2025-12-12 18:10:28,752 [WARNING] ============================================================
+2025-12-12 18:10:28,752 [WARNING] MANUAL INTERACTION REQUIRED:
+2025-12-12 18:10:28,752 [WARNING] 1. Reflex GUI should open in 3 seconds...
+2025-12-12 18:10:28,752 [WARNING] 2. SELECT the dataset row for this FITS file
+2025-12-12 18:10:28,752 [WARNING] 3. CLICK the 'Start' button
+2025-12-12 18:10:28,752 [WARNING] 4. WAIT for the pipeline to complete
+2025-12-12 18:10:28,753 [WARNING] 5. You will see 'reduced and saved' in the console
+2025-12-12 18:10:28,753 [WARNING] ============================================================
+2025-12-12 18:10:31,753 [INFO] Launching Reflex for SPHER.2015-04-23T11-36-38.665.fits

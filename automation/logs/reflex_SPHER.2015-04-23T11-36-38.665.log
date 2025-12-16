@@ -1,0 +1,21 @@
+The base dir is /home/michael/install/esoreflex-2.11.5
+Kepler.run going to run.setMain(org.kepler.Kepler)
+JVM Memory: min = 256m,  max = 4096m, stack = 1m
+      [run] log4j.properties found in CLASSPATH: /home/michael/install/esoreflex-2.11.5/kepler/resources/log4j.properties
+      [run] Initializing Configuration Manager.
+      [run] Setting Java Properties.
+      [run] Copying Module Files.
+      [run] Building Kars.
+      [run] Initializing Module: core.
+      [run] Initializing Module: gui.
+      [run] Kepler Initializing...
+      [run] Starting HSQL Server for hsqldb
+      [run] INFO  (org.kepler.util.sql.HSQL:_getConnection:775) started HSQL server at jdbc:hsqldb:hsql://localhost:41483/hsqldb;filepath=hsqldb:file:/home/michael/.kepler/cache-2.5/cachedata/hsqldb
+      [run] Building Library.
+      [run] Scanning Local Repositories for KAR files.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:393) The Cache was out of sync with KAR files in Local Repositories.
+      [run] INFO  (org.kepler.kar.KARCacheManager:synchronizeKARCacheWithLocalRepositories:395) The Cache has been synchronized with KAR files in Local Repositories.
+      [run] Building Library Index (this can take several minutes).
+      [run] WARN  (org.ecoinformatics.seek.ecogrid.SearchRegistryAction:queryRegistryRewriteConfig:206) Problem looking up registry entries using endpoint: 
+      [run] https://knb.ecoinformatics.org/registry/services/RegistryService
+      [run] WARN  (org.kepler.kar.KARFile:cacheKARContents:572) KAR should be in a Local Repository Folder to be inserted in the cache: /home/michael/install/share/reflex/workflows/spher-0.58.1/sphere_ifs_custom1.kar
